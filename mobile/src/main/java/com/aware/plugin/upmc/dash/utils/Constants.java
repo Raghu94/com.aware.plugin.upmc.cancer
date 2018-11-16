@@ -179,6 +179,7 @@ public final class Constants {
     public static final String CASE2 = ">=7";
     public static final String SNOOZE_COMMAND = "Snooze";
     public static final String CLOSE_COMMAND = "Close";
+    public static final String DO_NOT_DISTURB_COMMAND = "Do Not Disturb";
 
     // Messages received from the watch
     public static final String NOTIFICATION = "Ready?";
@@ -204,6 +205,7 @@ public final class Constants {
     public static final String ACTION_CHECK_PROMPT = "check_prompt";
     public static final String ACTION_CHECK_CONN = "check_watch_connection";
     public static final String ACTION_SURVEY_COMPLETED = "notify_survey_completed";
+    public static final String ACTION_DO_NOT_DISTURB = "ACTION_DO_NOT_DISTURB";
 
     // Survey notif
     public static final String SURVEY_COMPLETED = "Survey already completed. Tap to complete again.";

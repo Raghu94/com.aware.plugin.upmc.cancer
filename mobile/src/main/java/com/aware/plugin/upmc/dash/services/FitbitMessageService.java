@@ -56,6 +56,7 @@ import static com.aware.plugin.upmc.dash.utils.Constants.CONNECTED_WEAR;
 import static com.aware.plugin.upmc.dash.utils.Constants.CONTENT_TITLE_FITBIT;
 import static com.aware.plugin.upmc.dash.utils.Constants.DB_NAME;
 import static com.aware.plugin.upmc.dash.utils.Constants.DB_URL;
+import static com.aware.plugin.upmc.dash.utils.Constants.DO_NOT_DISTURB_COMMAND;
 import static com.aware.plugin.upmc.dash.utils.Constants.FAILED_WEAR;
 import static com.aware.plugin.upmc.dash.utils.Constants.HOST_URL;
 import static com.aware.plugin.upmc.dash.utils.Constants.INTERVENTION_TIMEOUT;
@@ -295,6 +296,9 @@ public class FitbitMessageService extends Service {
                 new PostData().execute(TABLE_COMMAND, CLOSE_COMMAND);
                 Log.d(Constants.TAG, "FitbitMessageService:" + intentAction);
                 dismissIntervention();
+                break;
+            case Constants.ACTION_DO_NOT_DISTURB:
+                new PostData().execute(TABLE_COMMAND, DO_NOT_DISTURB_COMMAND);
                 break;
 
             default:
