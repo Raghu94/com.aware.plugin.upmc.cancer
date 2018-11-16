@@ -644,6 +644,10 @@ public class FitbitMessageService extends Service {
     }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 260a6020dea9c80045c0eb3549f783a7c5706878
 //    public void scheduleTimeForMorningSurvey() {
 //        Log.d(Constants.TAG, "FitbitMessageService:scheduleTimeForMorningSurvey");
 //        Aware.setSetting(this, Settings.STATUS_PLUGIN_UPMC_CANCER, true);
@@ -705,6 +709,10 @@ public class FitbitMessageService extends Service {
 //            e.printStackTrace();
 //        }
 //    }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 260a6020dea9c80045c0eb3549f783a7c5706878
 
     private void scheduleTimeForDataSyncing(Integer hour, Integer min) {
         try {
